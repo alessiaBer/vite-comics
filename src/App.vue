@@ -1,4 +1,5 @@
 <script>
+import SiteHeader from './components/SiteHeader.vue'
 export default {
   data() {
     return {
@@ -10,10 +11,7 @@ export default {
 
 <template>
 <div class="my-container debug">
-  <header>
-    <div class="header_container"></div>
-  </header>
-  
+  <SiteHeader />
   <main>
     <div class="main_content">
       <div class="content_container">--&gt; Content goes here &lt;--</div>

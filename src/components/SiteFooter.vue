@@ -49,7 +49,29 @@ export default {
                 'Shop DC Collectibles'
             ] 
         }
-    ] 
+    ],
+    socials: [
+        {
+            name: 'Facebook',
+            img: 'public/img/footer-facebook.png', 
+        },
+        {
+            name: 'Twitter',
+            img: 'public/img/footer-twitter.png', 
+        },
+        {
+            name: 'YouTube',
+            img: 'public/img/footer-youtube.png', 
+        },
+        {
+            name: 'Pinterest',
+            img: 'public/img/footer-pinterest.png', 
+        },
+        {
+            name: 'Periscope',
+            img: 'public/img/footer-periscope.png', 
+        }
+    ]
     }
     
   }
@@ -65,7 +87,7 @@ export default {
                 <h5>{{ list.title.toUpperCase() }}</h5>
                 <ul class="list-unstyled">
                     <li v-for="item in list.items">
-                        <a href="" alt="">{{ item }}</a>
+                        <a href="#">{{ item }}</a>
                     </li>
                 </ul>
             </div>
@@ -79,10 +101,17 @@ export default {
     <div class="footer_bottom">
       <div class="bottom_container">
         <div class="bottom_left">
-
+            <button type="button" class="btn btn-outline-primary">SIGN-UP NOW!</button>
         </div>
-        <div class="bottom_right">
-
+        <div class="bottom_right d-flex">
+            <span>FOLLOW US</span>
+            <ul class="list-unstyled d-flex mb-0">
+                <li v-for="social in socials">
+                    <a href="#">
+                        <img :src="'/' + social.img" :alt="social.name">
+                    </a>
+                </li>
+            </ul>
         </div>
       </div>
     </div>

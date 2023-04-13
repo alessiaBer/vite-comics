@@ -1,0 +1,9 @@
+@use './common' as *;
+
+.header_container {
+    justify-content: space-between;
+}
+
+.active a {
+    color: $primary;
+}

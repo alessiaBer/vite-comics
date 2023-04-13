@@ -1,6 +1,9 @@
 <script>
 import SiteHeader from './components/SiteHeader.vue'
 export default {
+  components: {
+    SiteHeader
+  },
   data() {
     return {
       message: "Helloo",

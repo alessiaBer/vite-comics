@@ -1,10 +1,10 @@
 <script>
-import SiteShop from './SiteShop.vue';
+import MainShop from './MainShop.vue';
 
 export default {
   name: "SiteMain",
   components: {
-    SiteShop
+    MainShop
   }
 }
 </script>
@@ -13,7 +13,7 @@ export default {
     <div class="main_content">
       <div class="content_container">--&gt; Content goes here &lt;--</div>
     </div>
-    <SiteShop />
+    <MainShop />
 </template>
 
 

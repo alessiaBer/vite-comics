@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "SiteShop",
+  name: "MainShop",
   data() {
     return {
       products: [

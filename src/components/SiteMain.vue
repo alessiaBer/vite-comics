@@ -1,6 +1,11 @@
 <script>
+import SiteShop from './SiteShop.vue';
+
 export default {
-    name: 'SiteMain'
+  name: "SiteMain",
+  components: {
+    SiteShop
+  }
 }
 </script>
 

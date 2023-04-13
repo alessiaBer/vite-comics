@@ -57,8 +57,8 @@ export default {
       <div class="logo">
         <img src="../../public/img/dc-logo.png" alt="" />
       </div>
-      <nav>
-        <ul class="list-unstyled d-flex">
+      <nav class="d-flex">
+        <ul class="list-unstyled d-flex mb-0">
           <li class="nav-item" 
           v-for="item in navItems"
           :class="item.isActive === true ? 'active' : ''">

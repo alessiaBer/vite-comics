@@ -52,10 +52,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.debug header {
-  height: 80px;
-  background-color: red;
-}
 
 .debug .shop {
   height: 120px;

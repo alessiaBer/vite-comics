@@ -9,8 +9,18 @@ export default {
 </script>
 
 <template>
-  <h1>{{ message }}</h1>
+  <header>
+    <div class="header_container"></div>
+  </header>
+
+  <main></main>
+
+  <footer></footer>
 </template>
 
 <style lang="scss" scoped>
+header {
+  height: 80px;
+  background-color: red;
+}
 </style>

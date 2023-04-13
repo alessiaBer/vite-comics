@@ -2,11 +2,11 @@
 import SiteHeader from './components/SiteHeader.vue'
 export default {
   components: {
-    SiteHeader
+    SiteHeader,
+    SiteMain
   },
   data() {
     return {
-      message: "Helloo",
     };
   },
 };
@@ -15,20 +15,8 @@ export default {
 <template>
 <div class="my-container debug">
   <SiteHeader />
-  <main>
-    <div class="main_content">
-      <div class="content_container">--&gt; Content goes here &lt;--</div>
-    </div>
-    <div class="shop">
-      <div class="shop_container">
-        <div class="shop_option"></div>
-        <div class="shop_option"></div>
-        <div class="shop_option"></div>
-        <div class="shop_option"></div>
-        <div class="shop_option"></div>
-      </div>
-    </div>
-  </main>
+  <SiteMain />
+
   
   <footer>
     <div class="footer_top">
@@ -54,7 +42,7 @@ export default {
 <style lang="scss" scoped>
 
 .debug .shop {
-  height: 120px;
+  height: 130px;
   .shop_option {
     width: calc(100% / 5);
     background-color: yellow;

@@ -55,7 +55,7 @@ export default {
   <header>
     <div class="header_container">
       <div class="logo">
-        <img src="../../public/img/dc-logo.png" alt="" />
+        <img src="/img/dc-logo.png" alt="" />
       </div>
       <nav class="d-flex">
         <ul class="list-unstyled d-flex mb-0">

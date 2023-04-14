@@ -11,7 +11,9 @@ export default {
 <template>
   <div class="col">
     <div class="my_card">
-      <img :src="img" :alt="title">
+      <div class="card_img">
+        <img :src="img" :alt="title">
+      </div>
       <h5>{{ title.toUpperCase() }}</h5>
     </div>
   </div>

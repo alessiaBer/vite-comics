@@ -54,10 +54,11 @@ export default {
 <template>
   <header>
     <div class="header_container">
+      <nav class="d-flex">
       <div class="logo">
         <img src="/img/dc-logo.png" alt="" />
       </div>
-      <nav class="d-flex">
+      
         <ul class="list-unstyled d-flex mb-0">
           <li class="nav-item" 
           v-for="item in navItems"

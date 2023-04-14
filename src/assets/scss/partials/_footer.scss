@@ -1,5 +1,6 @@
 @use "./common" as *;
 
+/* #region FooterTop */
 .footer_top {
   background-image: url("/img/footer-bg.jpg");
   .top_container {
@@ -45,7 +46,9 @@
     }
   }
 }
+/* #endregion FooterTop */
 
+/* #region FooterBottom */
 .footer_bottom {
   background-color: $secondary;
   padding: 1.5rem 0;
@@ -84,3 +87,4 @@
     }
   }
 }
+/* #endregion FooterBottom */

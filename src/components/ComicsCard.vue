@@ -16,7 +16,9 @@ export default {
       </div>
       <h5>{{ title.toUpperCase() }}</h5>
     </div>
+    <!-- /.my_card -->
   </div>
+  <!-- /.col -->
 </template>
 
 <style lang="scss" scoped></style>

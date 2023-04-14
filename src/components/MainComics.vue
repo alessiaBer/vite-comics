@@ -20,6 +20,7 @@ export default {
       <div class="section_title">
         <h3>CURRENT SERIES</h3>
       </div>
+      <!-- /.section_title -->
       <div class="row row-cols-lg-6">
         <ComicsCard
           v-for="comic in comics"
@@ -27,8 +28,10 @@ export default {
           :title="comic.series"
         />
       </div>
+      <!-- /.row -->
       <button type="button" class="btn btn-primary rounded-0 d-block">LOAD MORE</button>
     </div>
+    <!-- /.comics_container -->
   </div>
 </template>
 

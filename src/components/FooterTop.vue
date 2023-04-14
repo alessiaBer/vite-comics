@@ -67,6 +67,7 @@ export default {
             </ul>
           </div>
         </div>
+        <!-- /.my_col -->
         <div class="my_col" v-for="list in menuRight">
           <h5>{{ list.title.toUpperCase() }}</h5>
           <ul class="list-unstyled">
@@ -75,8 +76,11 @@ export default {
             </li>
           </ul>
         </div>
+        <!-- /.my_col -->
       </div>
+      <!-- /.footer_menu -->
       <div class="footer_logo"></div>
+      <!-- /.footer_logo -->
     </div>
   </div>
 </template>

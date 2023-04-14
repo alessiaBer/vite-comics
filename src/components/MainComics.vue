@@ -29,7 +29,7 @@ export default {
         />
       </div>
       <!-- /.row -->
-      <button type="button" class="btn btn-primary rounded-0 d-block">LOAD MORE</button>
+      <button type="button" class="btn btn-primary rounded-0 d-block px-5">LOAD MORE</button>
     </div>
     <!-- /.comics_container -->
   </div>
